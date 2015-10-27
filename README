@@ -1,0 +1,29 @@
+QUESTION - 1
+
+Given a DOM element, e.g. document.querySelector(‘#mydiv’), access the scope valid for that element or its parent / ancestor, change a property called message on that scope. You may not use custom, services or global variables.
+
+ANSWER -1
+
+public/javascripts/service.js - state 'question1'
+
+QUESTION - 2
+Write code that runs whenever an element is destroyed.
+
+ANSWER -2
+
+public/javascripts/service.js - state 'question2'
+public/_answer2.html
+
+QUESTION - 3
+Where would you use an angular.identity? Give an example.
+
+ANSWER - 3
+
+public/javascripts/service.js - state 'question3'
+
+QUESTION - 4
+Write a script which makes an ajax call using $http without creating an angular application or bootstrapping it.
+
+ANSWER - 4
+
+public/javascripts/answer4.js
