@@ -1,0 +1,22 @@
+{
+  "name": "Angular_code_practice",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Amy <amyjialiu2015@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.4.7",
+    "angular-ui-router": "~0.2.15"
+  }
+}

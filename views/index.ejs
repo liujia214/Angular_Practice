@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style>
+      ul{
+        margin: 0;
+        padding: 0;
+      }
+      li{
+        float: left;
+        list-style-type: none;
+        padding-right: 20px;
+        margin: 10px 0;
+      }
+      li:hover{
+        font-size: 150%;
+      }
+      a{
+        cursor: pointer;
+        text-decoration: none;
+      }
+      button{
+        padding: 10px;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        margin: 10px 0;
+      }
+      div[ui-view]{
+        width: 400px;
+        border:  1px solid #cccccc;
+        padding: 10px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <div>
+      <ul>
+        <li><a ui-sref="question1">Question1</a></li>
+        <li><a ui-sref="question2">Question2</a></li>
+        <li><a ui-sref="question3">Question3</a></li>
+      </ul>
+    </div>
+  <div ui-view style="clear: left">
+
+  </div>
+    <button onclick="angular.bootstrap(document,['practiceApp']);this.parentNode.removeChild(this);alert('success!');">Bootstrap Angular!</button>
+    <script src="angular/angular.js"></script>
+    <script src="angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="javascripts/answer4.js"></script>
+    <script src="javascripts/service.js"></script>
+  </body>
+</html>
