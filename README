@@ -1,3 +1,7 @@
+Heroku:
+https://angularpractice.herokuapp.com/
+
+
 QUESTION - 1
 
 Given a DOM element, e.g. document.querySelector(‘#mydiv’), access the scope valid for that element or its parent / ancestor, change a property called message on that scope. You may not use custom, services or global variables.
